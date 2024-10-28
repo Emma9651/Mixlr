@@ -1,0 +1,97 @@
+#input {
+    width: 20%;
+}
+
+section {
+    margin-top: 140px;
+}
+
+#log {
+    width: 20%;
+}
+
+.user {
+    margin-right: 108px;
+}
+
+.user2 {
+    margin-right: 108px;
+}
+
+.enter {
+    margin-right: 80px;
+}
+
+.gee {
+    margin-right: 158px;
+}
+
+.gee2 {
+    margin-right: 110px;
+}
+
+#checkbox {
+    margin-left: 585px;
+}
+
+#checkbox2 {
+    margin-left: 565px;
+}
+a:hover {
+    color: red;
+}
+
+@media screen and (max-width:850px) {
+
+    /* login breakpoint */
+    .user {
+        position: fixed;
+        left: 17px;
+        padding-left: 5px;
+        font-size: 15px;
+    }
+
+    .gee {
+        position: fixed;
+        left: 17px;
+        padding-left: 5px;
+        font-size: 15px;
+    }
+
+    #input {
+        width: 90%;
+    }
+
+    #checkbox {
+        margin-left: 158px;
+    }
+
+    #log {
+        width: 90%;
+    }
+
+    /* sign-up breakpoint */
+    .user2 {
+        position: fixed;
+        left: 17px;
+        padding-left: 5px;
+        font-size: 15px;
+    }
+
+    .enter {
+        position: fixed;
+        left: 17px;
+        padding-left: 5px;
+        font-size: 15px;
+    }
+
+    .gee2 {
+        position: fixed;
+        left: 17px;
+        padding-left: 5px;
+        font-size: 15px;
+    }
+    #checkbox2 {
+        margin-left: 138px;
+    }
+}

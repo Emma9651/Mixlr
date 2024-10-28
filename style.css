@@ -1,0 +1,102 @@
+img {
+    max-width: 100%;
+    padding: 5px;
+}
+
+.slide {
+    margin-left: 355px;
+}
+
+a:hover {
+    color: red;
+}
+
+
+.gee h1 {
+    font-size: 4rem;
+    padding-top: 5px;
+    font-weight: 350;
+}
+
+#btn {
+    background-color: #f1f5f9;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    border: 1px solid grey;
+}
+
+.version h3 {
+    font-weight: 325;
+    font-size: 52px;
+}
+
+#scroll {
+    margin-right: 280px;
+    padding: 8%;
+    overflow: scroll;
+}
+
+.more {
+    margin-left: 150px;
+}
+
+.more h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 200px;
+}
+
+.more p {
+    font-size: larger;
+}
+
+a {
+    text-decoration: none;
+}
+
+#but {
+    width: 15%;
+    font-size: 15px;
+    font-weight: 20px;
+}
+
+@media screen and (max-width:850px) {
+    .gee h1 {
+        font-size: 3rem;
+        padding-top: 45px;
+        font-weight: 350;
+    }
+
+    #btn {
+        background-color: #f1f5f9;
+        width: 90%;
+        position: relative;
+        left: 5%;
+    }
+
+    .slide {
+        margin-left: 55px;
+    }
+
+    #scroll {
+        margin-right: 85px;
+        padding: 5%;
+        margin-top: 15px;
+        width: 80%;
+    }
+
+    .more {
+        margin-left: 15px;
+    }
+
+    .more h2 {
+        margin-top: 10px;
+    }
+    #but {
+    width: 35%;
+    font-size: 15px;
+    font-weight: 20px;
+}
+
+}
