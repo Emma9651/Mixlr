@@ -4,7 +4,7 @@ img {
 }
 
 .slide {
-    margin-left: 355px;
+    margin-left: 305px;
 }
 
 a:hover {
@@ -70,13 +70,13 @@ a {
 
     #btn {
         background-color: #f1f5f9;
-        width: 90%;
+        width: 80%;
         position: relative;
         left: 5%;
     }
 
     .slide {
-        margin-left: 55px;
+        margin-left: 125px;
     }
 
     #scroll {
@@ -87,7 +87,7 @@ a {
     }
 
     .more {
-        margin-left: 15px;
+        margin-left: 10px;
     }
 
     .more h2 {
@@ -99,4 +99,21 @@ a {
     font-weight: 20px;
 }
 
+}
+@media screen and (max-width:320px) {
+    #btn {
+        background-color: #f1f5f9;
+        position: relative;
+        left: 10%;
+
+    }
+}
+@media screen and (max-width:1024px) {
+    .slide {
+        margin-right:105px;
+    }
+    #scroll{
+        width: 85%;
+        margin-right: 95px;
+    }
 }
